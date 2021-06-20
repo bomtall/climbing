@@ -1,0 +1,16 @@
+name: climbing
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pywin32
+  - python-chromedriver-binary=91.0.4472.19.0
+  - pip
+  - pip:
+    - jupyter
+    - matplotlib
+    - plotly
+    - pandas
+    - selenium
+    - bs4
